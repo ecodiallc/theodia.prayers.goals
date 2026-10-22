@@ -1,8 +1,12 @@
 # Theodia Prayers Goals
 
-No packages have been published yet. The `index.json` catalog is published
-empty so the app can discover the repo; packages are added as they land.
+Prayer goal templates and exported goal packages. A goal package is a plain
+`.goals.json` file whose `goals` array the app installs as prayer goals.
+
+| ID | Name |
+| --- | ---- |
+| `example-goals` | Example Goals |
 
 ## Sources
 
-No packages have been published yet.
+- `example-goals`: Example prayer goal templates: a daily prayer routine, a journal each day, ten minutes of morning silence, and a weekly prayer check-in.

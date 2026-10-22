@@ -1,0 +1,34 @@
+{
+  "id": "example-goals",
+  "name": "Example Goals",
+  "description": "Example prayer goal templates: a daily prayer routine, a journal each day, ten minutes of morning silence, and a weekly prayer check-in.",
+  "author": "Theodia Team",
+  "version": "1.0.0",
+  "tags": ["example", "starter", "daily", "weekly"],
+  "goals": [
+    {
+      "name": "Daily prayer routine",
+      "description": "Complete one prayer routine each day.",
+      "criteria": { "type": "routine_count", "targetValue": 1 },
+      "frequency": "daily"
+    },
+    {
+      "name": "Journal each day",
+      "description": "Write one journal entry each day.",
+      "criteria": { "type": "journal_entry", "targetValue": 1 },
+      "frequency": "daily"
+    },
+    {
+      "name": "Morning silence",
+      "description": "Spend ten minutes in silence each morning.",
+      "criteria": { "type": "timer_minutes", "targetValue": 10 },
+      "frequency": "daily"
+    },
+    {
+      "name": "Weekly prayer check-in",
+      "description": "Mark one prayer check-in each week.",
+      "criteria": { "type": "manual_checkin", "targetValue": 1 },
+      "frequency": "weekly"
+    }
+  ]
+}

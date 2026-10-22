@@ -1,5 +1,22 @@
 {
   "version": 1,
   "updatedAt": "2026-10-21T00:00:00.000Z",
-  "packages": []
+  "packages": [
+    {
+      "id": "example-goals",
+      "type": "goal",
+      "path": "example-goals.goals.json",
+      "name": "Example Goals",
+      "description": "Example prayer goal templates: a daily prayer routine, a journal each day, ten minutes of morning silence, and a weekly prayer check-in.",
+      "author": "Theodia Team",
+      "tags": [
+        "example",
+        "starter",
+        "daily",
+        "weekly"
+      ],
+      "version": "1.0.0",
+      "size": 1147
+    }
+  ]
 }
