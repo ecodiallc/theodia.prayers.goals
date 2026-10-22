@@ -1,8 +1,5 @@
 # Theodia Prayers Goals
 
-Prayer goal templates and exported goal packages. A goal package is a plain
-`.goals.json` file whose `goals` array the app installs as prayer goals.
-
 | ID | Name |
 | --- | ---- |
 | `example-goals` | Example Goals |
